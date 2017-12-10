@@ -31,7 +31,7 @@ If we rebase our code with the master branch, and there are some conflicts, we n
 
 Now we happily merge our code into the master branch, create a release, without running the tests, and hope for the best.
 
-![](https://github.com/fandul/blog-Entry/blob/master/2.png)
+![](https://github.com/fandul/blog-Entry/blob/master/2.jpg)
 
 ([http://s2.quickmeme.com/img/46/468394fc32d72c2bdc04abd04834782a2de7fee5834b5df2fa3b9295262db4cb.jpg](http://s2.quickmeme.com/img/46/468394fc32d72c2bdc04abd04834782a2de7fee5834b5df2fa3b9295262db4cb.jpg)) 
 
