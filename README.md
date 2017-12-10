@@ -5,13 +5,7 @@
 
 _Tired of long and tedious operations, flawed code, and way too much off-schedule deliveries? Jenkins is relatively maintenance free and easy to master once you've stepped into the world of build automation tools. You get an easier and automated workflow, and ultimately save time and money._
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Entry0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Entry0.png "image_tooltip")
-
+![](https://github.com/fandul/blog-Entry/blob/master/1.png)
 
 ([https://redhatmiddleware.files.wordpress.com/2016/06/image00.png](https://redhatmiddleware.files.wordpress.com/2016/06/image00.png)) 
 
@@ -37,13 +31,7 @@ If we rebase our code with the master branch, and there are some conflicts, we n
 
 Now we happily merge our code into the master branch, create a release, without running the tests, and hope for the best.
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Entry1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Entry1.jpg "image_tooltip")
-
+![](https://github.com/fandul/blog-Entry/blob/master/2.png)
 
 ([http://s2.quickmeme.com/img/46/468394fc32d72c2bdc04abd04834782a2de7fee5834b5df2fa3b9295262db4cb.jpg](http://s2.quickmeme.com/img/46/468394fc32d72c2bdc04abd04834782a2de7fee5834b5df2fa3b9295262db4cb.jpg)) 
 
@@ -58,13 +46,7 @@ There must be a better way, and there is!
 
 Introducing Jenkins Build Server as it was back three years ago, it comes with a lot of out-of-the-box potential. Its high popularity is due to its ecosystem of more than 1,200 plug-ins thus making it the most compatible open-source cloud build server on the market. It takes care of both continuous integration as well as continuous delivery meaning that not only does it merge code from each involved developer on a project, but it also makes sure that the project stays in a production-ready state, making it possible to deploy at any time. Having naming conventions for each feature branch, and creating roles on the project repository, it is possible to be rid of the one thing that's always certain to happen, human errors.
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Entry2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Entry2.png "image_tooltip")
-
+![](https://github.com/fandul/blog-Entry/blob/master/3.png)
 
 ([https://657cea1304d5d92ee105-33ee89321dddef28209b83f19f06774f.ssl.cf1.rackcdn.com/workflow-5d9ad88dcf95d2550662e3c23078e728a349806cd3d36380c8cab001d8676d61.png](https://657cea1304d5d92ee105-33ee89321dddef28209b83f19f06774f.ssl.cf1.rackcdn.com/workflow-5d9ad88dcf95d2550662e3c23078e728a349806cd3d36380c8cab001d8676d61.png)) 
 
@@ -86,12 +68,7 @@ What happens next is almost magical. Via a webhook, GitHub notifies Jenkins that
 As we have discovered like so many others, we end up saving quite a lot of time by implementing build automation, and by that we potentially save money. Even with a "small" increase in efficiency, it's a large sum of money on a big budget.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Blog-Entry3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Blog-Entry3.png "image_tooltip")
-
+![](https://github.com/fandul/blog-Entry/blob/master/4.png)
 
 ([http://www.technolava.com/wp-content/uploads/2016/03/jenkins-features.png](http://www.technolava.com/wp-content/uploads/2016/03/jenkins-features.png)) 
 
