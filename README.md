@@ -44,7 +44,7 @@ There must be a better way, and there is!
 
 ## "You have no power here!" Human interaction, a thing of the past.
 
-Introducing Jenkins Build Server as it was back three years ago, it comes with a lot of out-of-the-box potential. Its high popularity is due to its ecosystem of more than 1,200 plug-ins thus making it the most compatible open-source cloud build server on the market. It takes care of both continuous integration as well as continuous delivery meaning that not only does it merge code from each involved developer on a project, but it also makes sure that the project stays in a production-ready state, making it possible to deploy at any time. Having naming conventions for each feature branch, and creating roles on the project repository, it is possible to be rid of the one thing that's always certain to happen, human errors.
+Introducing Jenkins Build Server as it was back three years ago, it comes with a lot of out-of-the-box potential. Its high popularity is due to its ecosystem of more than 1,200 plug-ins thus making it the most compatible open-source cloud build server on the market. It takes care of both continuous integration as well as continuous delivery meaning that not only does it merge code from each involved developer on a project, but it also makes sure that the project stays in a production-ready state, making it possible to deploy at any time. Having naming conventions for each feature branch, and creating roles on the project repository, it is possible to get rid of the one thing that's always certain to happen, human errors.
 
 ![](https://github.com/fandul/blog-Entry/blob/master/3.png)
 
@@ -60,12 +60,12 @@ At the moment a developer will only have to:
 1.  Write your implementation.
 1.  Create a ready/ branch once you're done, and push it to the remote repository.
 
-What happens next is almost magical. Via a webhook, GitHub notifies Jenkins that a new branch using the ready/ naming convention has been created, triggering Jenkins to do a new source code management (scm) checkout. It sees the ready/ branch triggering a new build job. Under the condition that all stages passes, we let Jenkins merge the ready/ branch with Master and ultimately pushing to GitHub. Same process happens again, now notifying Jenkins that Master has been updated. This triggers a different type of build where all source code is compiled and dockerized, eventually doing an automatic deployment on our production server. In any case an error occurs the build exits and the development team gets a notification on their #devops Slack channel, letting them know the outcome of the build and what went wrong. This makes it easier to correct the bug that caused the error in the first place.
+What happens next is almost magical. Via a webhook, GitHub notifies Jenkins that a new branch using the ready/ naming convention has been created, triggering Jenkins to do a new source code management (scm) checkout. It sees the ready/ branch triggering a new build job. Under the condition that all stages passes, we let Jenkins merge the ready/ branch with Master and ultimately pushing to GitHub. Same process happens again, now notifying Jenkins that Master has been updated. This triggers a different type of build where all source code is compiled and dockerized, eventually doing an automatic deployment on our production server. In any case an error occurs the build exits and the development team gets a notification on their #devops Slack channel, letting them know the outcome of the build and what went wrong. This makes it easier to correct the bug that caused the error in the first place. As developer becomes less involved in the deployment and automation he or she can be more focused on writing better code.
 
 
 ## To Sum it All Up
 
-As we have discovered like so many others, we end up saving quite a lot of time by implementing build automation, and by that we potentially save money. Even with a "small" increase in efficiency, it's a large sum of money on a big budget.
+As we have discovered like so many others, we end up saving quite a lot of time by implementing build automation, and by that we potentially save money. Even with a "small" increase in efficiency, it's a large sum of money on a big budget. And with help of Jenkins your software deployment becomes simple, stable, and more reliable.
 
 
 ![](https://github.com/fandul/blog-Entry/blob/master/4.png)
