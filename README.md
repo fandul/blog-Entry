@@ -65,6 +65,7 @@ What happens next is almost magical. Via a webhook, GitHub notifies Jenkins that
 
 ## To Sum it All Up
 
+This is just an (one) example of how a Jenkinsfile can look, and the aforementioned description is how we chose to configure the Jenkins behaviour. 
 As we have discovered like so many others, we end up saving quite a lot of time by implementing build automation, and by that we potentially save money. Even with a "small" increase in efficiency, it's a large sum of money on a big budget. And with help of Jenkins your software deployment becomes simple, stable, and more reliable.
 
 
